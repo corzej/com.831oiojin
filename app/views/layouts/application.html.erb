@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Com831oiojin</title>
+  <title>Eung Jin Lee</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <%= render 'layouts/header' %>
+	<%= yield %>
+  <%= javascript_include_tag "jquery.mixitup.min", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "jquery.smooth-scroll.min", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "main", "data-turbolinks-track" => true %>
 </body>
+
 </html>

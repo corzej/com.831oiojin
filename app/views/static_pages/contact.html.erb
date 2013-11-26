@@ -1,2 +1,74 @@
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+<div class="row bottom">
+  <div class="col-lg-8 col-md-8 col-sm-7 col-left">
+      <section>
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+                  
+                  <!--input contact-->
+                  <h1>Contact</h1>
+                  <h1 class="spacer">___</h1>
+                  <p>Please contact me if you want to make an awesome app with me.</p>
+                  <hr>
+                  <div class="panel panel-default contact btn-footer">
+                      <div class="panel-body">
+                          <form role="form">
+                              <div class="form-group">
+                                  <label for="contactEmail">Email address</label>
+                                  <input type="email" class="form-control" id="contactEmail">
+                              </div>
+                              <div class="form-group">
+                                  <label for="contactMessage">Message</label>
+                                  <textarea class="form-control" rows="10" id="contactMessage"></textarea>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="panel-footer">
+                          <a class="btn btn-grey btn-lg btn-block">Send</a>
+                      </div>
+                  </div>
+              </div>
+          </div>    
+      </section>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-5 col-right">
+  <div id="scroll-shadow"></div>
+      <section>
+          <div class="row">
+              <div class="col-lg-12">
+              
+                  <!--panel contact-->
+                  <div class="panel panel-default item">
+                      <div class="panel-heading">
+                          <a href="#">
+                              
+                              <!--your image-->
+                              <%= image_tag("avatar-contact.jpg", alt: "EungJin-Picture is missing", class: "img-responsive item-img") %> 
+                          </a>
+                      </div>
+                      <div class="panel-body">
+                      
+                          <!--your name-->
+                          <a href="#"><h4 class="item-title">Eung Jin Lee</h4></a>
+                          
+                          <!--your profession / where you live-->
+                          <p class="item-category">iOS/Rails developer, Seoul | LA | NY</p>
+                          
+                          <!--your descritpion / why should we contact you-->
+                          <p class="item-description">Logic X Instict X Belief</p>
+                          <hr>
+                          
+                          <!--social networks-->
+                          <div class="item-social text-center">
+                          	<%= link_to image_tag("icon-facebook.png", alt: "FB", class: "social"),'http://www.twitter.com/oiojin831' %>
+                          	<%= link_to image_tag("icon-twitter.png", alt: "FB", class: "social bis"),'http://www.twitter.com/oiojin831' %>
+                          	<%= link_to image_tag("icon-google.png", alt: "FB", class: "social"),'http://www.twitter.com/oiojin831' %>
+                          	<%= link_to image_tag("icon-linkedin.png", alt: "FB", class: "social bis"),'http://www.twitter.com/oiojin831' %>
+                          </div>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>    
+      </section>
+  </div>
+</div>
