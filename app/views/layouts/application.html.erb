@@ -9,8 +9,9 @@
 <body>
   <%= render 'layouts/header' %>
 	<%= yield %>
-  <%= javascript_include_tag "jquery.mixitup.min", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "main", "data-turbolinks-track" => true %>
+  
+  <script src="jquery.mixitup.min.js"></script>
+	<script src="main.js"></script>
 </body>
 
 </html>
