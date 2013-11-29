@@ -1,6 +1,9 @@
 <div class="row top">
     <div class="col-lg-8 col-md-8 col-sm-7 col-left">
-        <div class="name"><%= link_to "Eungjin Lee", home_path %></a></div>
+        <div class="name">
+            <%= link_to "Eungjin Lee", home_path %>
+            <div class="pull-right"><%= link_to_unless_current "English", locale: "en" %> | <%= link_to_unless_current "한국어 ", locale: "kr" %></div>
+        </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-5 col-right">
         <nav>

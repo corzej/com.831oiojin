@@ -8,10 +8,9 @@
                                 
                                 <!--activity image-->
                                 <%= image_tag("image-home-2.jpg", alt: "Home Header Image", class: "img-responsive") %>
-                                <img class="img-responsive" src="assets/images/image-home-2.jpg" alt="Project header">
                                 
                                 <!--activity title -->
-                                <h1>hello i'm a web/app Developer</h1>
+                                <h1><%= t ".hello" %></h1>
                                 <h1 class="spacer">___</h1>
                                 
                                 <!--activity descritpion-->
@@ -23,7 +22,7 @@
                     </section>
                 </div>
             </div>
-            <%= render 'layouts/work' %>
+            <%= render 'layouts/worklist' %>
         </div>                        
     </div>  
             
