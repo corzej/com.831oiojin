@@ -15,25 +15,25 @@
     
     <section class="row" id="Grid">
         <!--work 1-->
-        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 web-design">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 C-lang">
             <div class="panel panel-default item">
                 <div class="panel-heading">
                     <a href="project-example.html">
                     
                         <!--work image-->
-                        <%= image_tag("work/projet-example-1.png", alt: "Work 1", class: "img-responsive item-img") %>
+                        <%= image_tag("work/asterisk2.png", alt: "Work 1", class: "img-responsive item-img") %>
                     </a>
                 </div>
                 <div class="panel-body">
                 
                     <!--work title-->
-                    <a href="project-example.html"><h4 class="item-title">Project Title</h4></a>
+                    <a href="project-example.html"><h4 class="item-title"><%= t ".title" %></h4></a>
                     
                     <!--work category-->
-                    <p class="item-category">Logotype</p>
+                    <p class="item-category">C</p>
                     
                     <!--work short description-->
-                    <p class="item-description">Iam virtutem ex consuetudine vitae sermonisque nostri nostri nostri</p>
+                    <p class="item-description"><%= t ".intro" %></p>
                     <hr>
                     
                     <!--work tags-->

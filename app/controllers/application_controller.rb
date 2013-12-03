@@ -10,5 +10,8 @@ private
 		I18n.locale = params[:locale] if params[:locale].present?
 	end
 #I might not need this
+	def default_url_option(options = {})
+		{locale: I18n.locale}
+	end
 
 end

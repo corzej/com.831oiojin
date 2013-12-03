@@ -1,4 +1,13 @@
 en:
   static_pages:
     home:
+      construction: WEB PAGE UNDER CONSTRUCTION
       hello: "hello i'm a web/app Programmer"
+      title: ""
+      intro: |
+        The major language I use is Objective-C and Ruby. Mostly work with Cocoa/iOS SDK and Rails Framework. Love to work with Designers and Creative people. Started to learn C language from college since I was Electrical Engineer major. Got interested in software development. Took some JAVA classes and teach myself Obj-C on Senior year.
+        Moved to New york to work with more Desinged centric people.
+  layouts:
+    worklist:
+      title: Asterisk Diamond
+      intro: First Programming Experiences. Making diamond with loops.
